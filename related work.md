@@ -80,4 +80,5 @@ AKA-Fake模型通过引入强化学习框架，针对每条新闻学习一个紧
 **Learn over Past, Evolve for Future:Forecasting Temporal Trends for Fake News Detection**  
 该论文提出了一个新的假新闻检测框架——FTT（Forecasting Temporal Trends），旨在解决新闻数据快速演变所引起的时序变化问题。现有的假新闻检测方法通常在历史数据上训练并在未来数据上测试，这会导致性能显著下降。FTT框架通过预测新闻数据的时间分布模式，帮助模型选择合适的训练实例，以便更好地适应未来的数据分布。实验结果表明，FTT框架在处理时序分割数据集时具有优越的性能。  
 
-
+**MetaAdapt: Domain Adaptive Few-Shot Misinformation Detection via Meta Learning**  
+该论文提出了一种基于元学习的方法MetaAdapt，解决了在目标领域数据稀缺的情况下进行少样本误信息检测的问题。MetaAdapt通过利用有限的目标领域数据指导源领域到目标领域的知识转移，适应目标领域的变化。具体来说，MetaAdapt通过训练初始模型，计算源任务与元任务的相似度，并基于这些相似度调整梯度，以便更好地适应目标任务。实验结果表明，MetaAdapt在多个实际数据集上表现优越，能够有效地进行领域自适应的少样本误信息检测。  
