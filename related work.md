@@ -62,7 +62,7 @@ AKA-Fake模型通过引入强化学习框架，针对每条新闻学习一个紧
 **Unveiling Implicit Deceptive Patterns in Multi-Modal Fake News via Neuro-Symbolic Reasoning**  
 这篇文章提出了一种名为 NSLM（Neuro-Symbolic Latent Model）的新型模型，旨在解决多模态假新闻检测中的可解释性问题。与现有方法不同，NSLM不仅能够准确判断新闻的真实性，还能揭示潜在的欺骗模式，如图像操控、跨模态不一致和图像重用等。模型通过使用可学习的潜在变量和基于符号逻辑规则的弱监督学习来捕捉这些欺骗模式。此外，NSLM引入了伪孪生网络来有效区分这些模式，实验结果显示，该方法在假新闻检测中表现优越，并提供了有价值的欺骗模式解释。  
 
-**Propagation Tree Is Not Deep: Adaptive Graph Contrastive Learning Approach for Rumor Detection**
+**Propagation Tree Is Not Deep: Adaptive Graph Contrastive Learning Approach for Rumor Detection**  
 这篇论文提出了一种名为 RAGCL（Rumor Adaptive Graph Contrastive Learning）的新方法，用于社交媒体上的谣言检测。传统的图神经网络模型假设谣言传播树（RPT）具有深层结构，但实际数据分析显示，RPT通常呈现广泛结构，节点多为浅层一层回复。为此，RAGCL通过基于节点中心性的自适应视图增强方法，聚焦于学习密集的子结构。该方法引入了三条原则来增强RPT：1）排除根节点；2）保留深层回复节点；3）在深层部分保留较低层次节点。通过节点丢弃、属性遮蔽和边缘丢弃等技术生成不同的视图，图对比学习目标则用于学习稳健的谣言表示。实验结果表明，RAGCL在四个基准数据集上超越了现有的最先进方法。该方法为谣言检测提供了一种有效的图对比学习方案，并揭示了RPT的广结构特点，具有潜在的跨领域应用价值。  
 
 **GAMC: An Unsupervised Method for Fake News Detection using Graph Autoencoder with Masking**  
